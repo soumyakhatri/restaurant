@@ -178,9 +178,7 @@
   width: 100%;
   min-height: 758px;
 }
-.section-3 h3{
-  font-size: 36px;
-}
+
 
 .transparent-div{
   width: 568px;
@@ -194,4 +192,13 @@
 }
 .transparent-div p{
   padding: 0 70px;
+}
+
+@media (max-width:480px) {
+  .transparent-div p{
+    padding: 0 48px;
+  }
+  .transparent-div{
+    width: 100%;
+  }
 }
