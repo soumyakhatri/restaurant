@@ -12,6 +12,12 @@
   color: #dab33e;
 }
 
+@media (max-width: 480px) {
+  .fs-sm-26{
+    font-size: 26px;
+  }
+}
+
 .hero {
   background-image: url('./images/Section Background.png');
   background-repeat: no-repeat;
@@ -134,5 +140,15 @@
   .dish-img{
     right: 0;
     width: 95%;
+  }
+
+  .section-2 h3{
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-2 h3{
+    margin-top: 50px;
   }
 }
