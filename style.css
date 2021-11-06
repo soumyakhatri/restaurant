@@ -74,12 +74,21 @@
 }
 
 @media (max-width:1024px) {
+  .heading{
+
+  }
   .heading h1{
     font-size: 60px;
+    padding-top: 80px;
   }
 }
 @media (max-width:768px) {
   .heading h1{
-    font-size: 40px;
+    font-size: 45px;
+  }
+}
+@media (max-width:480px) {
+  .heading h1{
+    font-size: 35px;
   }
 }
