@@ -1,3 +1,17 @@
+.ff-y{
+  font-family: 'Yeseva One', cursive;
+}
+
+.ff-l{
+  font-family: 'Lato', sans-serif;
+}
+.fs-36{
+  font-size: 36px;
+}
+.c-g{
+  color: #dab33e;
+}
+
 .hero {
   background-image: url('./images/Section Background.png');
   background-repeat: no-repeat;
@@ -31,7 +45,6 @@
   color: #fff;
   font-size: 90px;
   text-align: center;
-  font-family: 'Yeseva One', cursive;
   padding-top: 140px;
   line-height: 1.3
 }
@@ -92,4 +105,24 @@
     font-size: 35px;
 
   }
+}
+
+/* Section-2 */
+
+.section-2{
+  background-image: url('images/bg-2.jpeg');
+}
+
+.section-2 h3{
+  margin-top: 100px;
+}
+
+.s2-col1-div{
+  padding: 0 0 0 130px;
+}
+
+.dish-img{
+  position: relative;
+  right: 50px;
+  width: 95%;
 }
