@@ -121,6 +121,11 @@
   .heading-btns-div{
     padding-bottom: 100px;
   }
+
+  .btn-t {
+    height: 56px;
+    width: 228px;
+  }
 }
 
 /* Section-2 */
@@ -153,7 +158,7 @@
   }
 
   .section-2 h3{
-    margin-top: 70px;
+    margin-top: 90px;
   }
 }
 
