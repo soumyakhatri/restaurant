@@ -1,0 +1,9 @@
+.hero {
+  background-image: url('./images/Section Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-links {
+  font-family: 'Gentium Book Basic', serif;
+}
