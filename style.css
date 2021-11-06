@@ -167,3 +167,31 @@
     margin-top: 50px;
   }
 }
+
+/* Section 3 */
+
+.section-3{
+  background-image: url('./images/bg-3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 758px;
+}
+.section-3 h3{
+  font-size: 36px;
+}
+
+.transparent-div{
+  width: 568px;
+  height: 567px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.transparent-div h3{
+  margin-top: 70px;
+}
+.transparent-div p{
+  padding: 0 70px;
+}
