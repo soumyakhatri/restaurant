@@ -13,12 +13,16 @@
 
 .nav-link{
   color: white!important;
+  margin-left: 4%;
 }
 
 .navbar{
   padding: 0 11%;
 }
 
+.ssm-icon-div{
+  margin-left: 4%
+}
 .ssm-icon{
   color: #dab33e;
 }
@@ -67,4 +71,15 @@
 .btn-t {
   height: 56px;
   width: 228px;
+}
+
+@media (max-width:1024px) {
+  .heading h1{
+    font-size: 60px;
+  }
+}
+@media (max-width:768px) {
+  .heading h1{
+    font-size: 40px;
+  }
 }
