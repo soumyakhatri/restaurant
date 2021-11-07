@@ -283,3 +283,19 @@
 .footer .row{
   padding: 0 8%;
 }
+
+.footer-hours{
+  position: relative;
+}
+.footer .icons{
+  position: absolute;
+  bottom: 5px;
+}
+@media (max-width: 1024px) {
+  .footer .row{
+    padding: 0;
+  }
+  .footer .icons{
+    bottom: -5px;
+  }
+}
