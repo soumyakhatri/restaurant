@@ -5,8 +5,21 @@
 .ff-l{
   font-family: 'Lato', sans-serif;
 }
+
+.ff-dg{
+  font-family: 'Didact Gothic', sans-serif;;
+}
+
+.ff-dm{
+  font-family: 'DM Serif Display', serif;
+}
+
 .fs-36{
   font-size: 36px;
+}
+
+.fs-45{
+  font-size: 45px;
 }
 .c-g{
   color: #dab33e;
@@ -15,6 +28,10 @@
 @media (max-width: 480px) {
   .fs-sm-26{
     font-size: 26px;
+  }
+
+  .fs-sm-16{
+    font-size: 16px;
   }
 }
 
@@ -200,5 +217,56 @@
   }
   .transparent-div{
     width: 100%;
+  }
+}
+
+/* Section-5 */
+
+.section-5{
+  background-image: url('./images/bg-4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.section-5 .container{
+  padding: 100px 0;
+}
+
+.section-5 .transparent-div-2{
+  max-width: 770px;
+  /* max-height: 557px; */
+  margin: 0 auto;
+  background: #000;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}
+.transparent-div-2 h3{
+  margin-top: 70px;
+}
+.reviews p{
+  position: relative;
+  bottom: 140px;
+  color: #dde0df;
+  line-height: 45px;
+}
+
+.quote{
+  font-size: 90px;
+  position: relative;
+  right: 350px;
+  bottom: 20px;
+  color: #9b9c99;
+}
+
+@media (max-width:480px) {
+  .transparent-div-2 p{
+    padding: 0 48px;
+    font-size: 16px!important;
+  }
+  .transparent-div-2{
+    /* width: 100%; */
+    height: auto;
   }
 }
