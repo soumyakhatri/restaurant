@@ -236,8 +236,8 @@
 
 .section-5 .transparent-div-2{
   max-width: 770px;
-  /* max-height: 557px; */
   margin: 0 auto;
+  padding-bottom: 70px;
   background: #000;
   background: rgba(0, 0, 0, 0.85);
   color: #fff;
@@ -246,27 +246,40 @@
   margin-top: 70px;
 }
 .reviews p{
-  position: relative;
-  bottom: 140px;
   color: #dde0df;
   line-height: 45px;
 }
-
 .quote{
-  font-size: 90px;
-  position: relative;
-  right: 350px;
-  bottom: 20px;
   color: #9b9c99;
+  line-height: 45px;
+  font-size: 96px;
+  position: relative;
+  top: 30px;
+  right: 20px;
 }
 
-@media (max-width:480px) {
-  .transparent-div-2 p{
+@media (max-width:768px) {
+  .reviews p{
     padding: 0 48px;
     font-size: 16px!important;
+    line-height: 30px!important;
   }
   .transparent-div-2{
     /* width: 100%; */
     height: auto;
   }
+}
+
+/* footer */
+.footer{
+  background-image: url('./images/bg-5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: #fff;
+}
+
+.footer .row{
+  padding: 0 8%;
 }
